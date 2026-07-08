@@ -1,0 +1,15 @@
+# Example organization security policy.
+#
+# Loaded by PolicyEngine.from_yaml() and evaluated by the deployment gate
+# (see src/enterprise_devsecops/policy.py and gate.py). Path is
+# configurable via EDSEC_POLICY_PATH.
+name: org-baseline
+version: "1.0.0"
+max_severity: HIGH
+fail_on:
+  - CRITICAL
+  - HIGH
+denied_licenses:
+  - AGPL-3.0
+  - GPL-2.0
+waivers: []

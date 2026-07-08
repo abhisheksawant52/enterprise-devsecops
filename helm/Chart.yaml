@@ -1,2 +1,13 @@
+apiVersion: v2
 name: enterprise-devsecops
+description: Helm chart for the enterprise-devsecops platform orchestration service
+type: application
 version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - devsecops
+  - security
+  - policy-as-code
+home: https://github.com/abhisheksawant52/enterprise-devsecops
+maintainers:
+  - name: Abhishek Sawant

@@ -1,1 +1,0 @@
-print("enterprise-devsecops")
